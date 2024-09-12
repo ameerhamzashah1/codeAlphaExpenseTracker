@@ -1,0 +1,74 @@
+
+<!-- this is my html code  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expensetracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ExpenceEye
+        </h1>
+    </header>
+    <main>
+        <section class="expense-form">
+            <h2>Add Your Expense Here</h2>
+            
+            <form id="expense-form">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="Food">Food</option>
+                    <option value="Transport">Trvelling</option>
+                    <option value="outing">Outing</option>
+                    <option value="Friends Gathering">Friends Gathering</option>
+                    <option value="GIAIC class">GIAIC class</option>
+                    <option value="Friday">Friday</option>
+                    <option value="12 Rabi un noor sahreef">12 Rabi un noor sahreef</option>
+                    
+                </select>
+
+<select id="currency" name="Select Currency">
+   
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="INR">INR</option>
+    <option value="PKR">PKR</option>
+    <!-- Aur currencies add karein -->
+</select
+                <label for="amount">Amount:</label>
+                <input type="text" id="amount" name="amount">
+                <br />
+                <br />
+
+                <button id="add-expense-btn">Add Expense</button>
+            </form>
+        </section>
+        <section class="expense-list">
+            <h2>Expense List</h2>
+            <ul id="expense-list"></ul>
+        </section>
+    </main>
+    
+<footer>
+    <p>&copy; 2024 Expense Tracker</p>
+    <p>Contact Us: <a href="#".com">Ameer Hamza Shah</a></p>
+    <ul>
+        <li><a href="#" target="_blank">Terms and Conditions</a></li>
+        <li><a href="#" target="_blank">Privacy Policy</a></li>
+    </ul>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=61557034587070" target="_blank">Facebook<i class="fa fa-facebook"></i></a>
+        <a href="#" target="_blank">Gmail<i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/ameer-hamza-77a119284/" target="_blank">Linkdin<i class="fa fa-linkedin"></i></a>
+    </div>
+</footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+
+/* here I will code css for styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color:#b770a2;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    /* background-image: url(); */
+    background-color: #28354d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.expense-form {
+    background-color:#b770a2;
+    color: #ffffff;
+    padding: 2em;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#currency {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+    
+#amount {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #b34898;
+    color : white;
+    
+}
+.expense-list {
+    background-color: #b770a2;
+    color:#58d5da;
+    padding: 2em;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(78, 29, 29, 0.1);
+}
+
+#expense-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#expense-list li {
+    padding: 1em;
+    border-bottom: 1px solid #ddd;
+}
+
+#expense-list li:last-child {
+    border-bottom: none;
+}
+
+
+footer {
+    background-color:red;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin-right: 10px;
+}
